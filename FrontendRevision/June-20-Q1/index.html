@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #container{
+          display: grid;
+          grid-template-columns: repeat(4,1fr);
+         
+          gap:15px;
+        }
+        #container>div{
+          color:rgb(248, 133, 133);
+          border:1px solid rgb(65, 4, 4);
+          border-radius: 20px;
+          align-items: center;
+          text-align: center;
+          /* background-color:rgb(94, 93, 95); */
+          cursor: pointer;
+    
+        }
+        #container>div:hover{
+          color:rgb(236, 53, 191);
+         
+        }
+        #asce,#desc{
+          margin: 20px;
+          font-size: 16px;
+          background-color: red;
+          color: white;
+          border: 1px solid white;
+          height: 40px;
+          border-radius: 10px;
+          cursor: pointer;
+        }
+      </style>
+</head>
+<body>
+    <h4>Sort on the basis of population</h4>
+    <button id="asce">From Low to High</button>
+    <button id="desc">From High to Low</button>
+    <div id="container"></div>
+</body>
+</html>
+<script src="index.js"></script>
