@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #box{
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            gap: 10px;
+        }
+        #box>div{
+            border: 1px solid;
+            border-radius: 15px;
+            padding: 15px;
+        }
+        #container:hover{
+            cursor: pointer;
+        }
+
+    </style>
+</head>
+<body>
+    <input type="text"  id="search" placeholder="Search">
+    <button id="search-btn">Search</button>
+    <div id="container"></div>
+    <div id="box"></div>
+    
+</body>
+</html>
+<script src="index.js"></script>
