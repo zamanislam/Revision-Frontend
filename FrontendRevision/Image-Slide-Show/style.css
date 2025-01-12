@@ -1,0 +1,15 @@
+#container{
+    /* border:1px solid black; */
+   /* width:80%; */
+   padding: 20px;
+   margin-left: 80px;
+   display: flex;
+     justify-content: space-around;
+   }
+   #container>img{
+     width:40%;
+     height:450px;
+     padding-top: 100px;
+     
+   }
+
