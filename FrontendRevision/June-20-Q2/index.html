@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #container{
+         display: grid;
+         grid-template-columns: repeat(4,1fr);
+        
+         gap:15px;
+       }
+       #container>div{
+        
+         border:1px solid red;
+         border-radius: 20px;
+         align-items: center;
+         text-align: center;
+         
+         cursor: pointer;
+   
+       }
+   
+       button{
+         margin:10px;
+       }
+       form{
+         display:flex;
+         flex-direction: column;
+         gap:5px;
+         width:30%;
+         margin:auto;
+         margin-bottom: 20px;
+       }
+     </style>
+</head>
+<body>
+    <form action="">
+        <label for="">Title:</label>
+        <input type="text" id="inp1">
+        <label for="">Description:</label>
+        <input type="text" id="inp2">
+        <label for="">Status:</label>
+        <input type="text" id="inp3">
+        <label for="">Duedata</label>
+        <input type="text" id="inp4">
+        <input type="text" id="subbtn">
+    </form>
+    <div id="container"></div>
+</body>
+</html>
+<script src="index.js"></script>
