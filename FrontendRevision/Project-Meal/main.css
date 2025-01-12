@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    cursor: pointer;
+    color: red;
+}
+
+
+#navbar{
+    background-color: teal;
+    border: 1px solid;
+    color: white;
+    padding: 15px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+#container{
+ 
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:10px;
+  }
+  #container>div{
+    padding: 15px;
+  }
+  #container>div>img{
+    width:90%;
+  }
